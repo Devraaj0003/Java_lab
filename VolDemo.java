@@ -1,5 +1,5 @@
 
-
+//3
 
 
 import java.util.*;
@@ -30,6 +30,14 @@ class Cuboid implements Comparable{
         else{
             return 0;
             }
+    }
+
+    String area() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    String perimeter() {
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 }
 class Cylinder implements Comparable{
